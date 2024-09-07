@@ -3,8 +3,9 @@
     font-family: Arial, Helvetica, sans-serif, 'Times New Roman';
     background-color: rgb(195, 248, 250);
     padding: 16px;
-    width: 120px;
+    width: 300px;
     margin: 10px auto;
+    border-radius: 6px;
 }
 .center{
     text-align: center;
