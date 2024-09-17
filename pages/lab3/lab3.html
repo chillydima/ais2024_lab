@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Учебные заведения Прокопьевска</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Образование в Прокопьевске</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Школы</a></li>
+                <li><a href="#">Колледжи</a></li>
+                <li><a href="#">Университеты</a></li>
+                <li><a href="#" id="contact-button">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Добро пожаловать!</h2>
+            <p>Найдите информацию об учебных заведениях города Прокопьевск</p>
+            <a href="#" class="button">Узнать больше</a>
+        </section>
+
+        <section class="institutions">
+            <div class="institution">
+                <img src="school.jpg" alt="Школы">
+                <h3>Школы</h3>
+                <p>Список всех школ города с адресами и контактами.</p>
+            </div>
+            <div class="institution">
+                <img src="college.jpg" alt="Колледжи">
+                <h3>Колледжи</h3>
+                <p>Информация о колледжах и специальностях.</p>
+            </div>
+            <div class="institution">
+                <img src="university.jpg" alt="Университеты">
+                <h3>Университеты</h3>
+                <p>Детали о высших учебных заведениях города.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Образование в Прокопьевске</p>
+    </footer>
+
+    <!-- Модальное окно контактов -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Контактная информация</h2>
+            <p><strong>Email:</strong> info@education-prok.ru</p>
+        </div>
+    </div>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scroll-top-button">Наверх</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

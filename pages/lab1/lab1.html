@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Система управления складом</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Система управления складом</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Товары</a></li>
+                <li><a href="#">Заказы</a></li>
+                <li><a href="#">Поставщики</a></li>
+                <li><a href="#" id="contact-button">Контакты</a></li>
+                <li><a href = "../../index.html">Вернуться</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Главный баннер -->
+        <section class="hero">
+            <h2>Добро пожаловать в систему управления складом</h2>
+            <p>Управляйте запасами, отслеживайте заказы и оптимизируйте процессы в вашем бизнесе с нашей эффективной системой.</p>
+            <a href="#" class="button">Подробнее</a>
+        </section>
+
+        <!-- Картинка посередине страницы -->
+        <section class="image-section">
+            <img src="../../images/sklad.jpg" alt="Изображение склада">
+        </section>
+
+        <!-- Секция с преимуществами -->
+        <section class="features">
+            <div class="feature">
+                <img src="../../images/manage.png" alt="Управление запасами">
+                <h3>Управление запасами</h3>
+                <p>Следите за наличием товаров и своевременно пополняйте запасы.</p>
+            </div>
+            <div class="feature">
+                <img src="../../images/tracking.jpg" alt="Отслеживание заказов">
+                <h3>Отслеживание заказов</h3>
+                <p>Контролируйте статус заказов от получения до доставки.</p>
+            </div>
+            <div class="feature">
+                <img src="../../images/analytics.png" alt="Аналитика">
+                <h3>Аналитика</h3>
+                <p>Анализируйте данные для принятия обоснованных решений.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Система управления складом. Все права защищены.</p>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scroll-top-button">Наверх</button>
+
+    <!-- Всплывающее окно контактов -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Контактная информация</h2>
+            <p><strong>Телефон:</strong> +7 (950) 456-78-90</p>
+            <p><strong>Email:</strong> info@sklad.com</p>
+            <p><strong>Адрес:</strong> г. Прокопьевск, ул. Примерная, д. 1</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

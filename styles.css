@@ -40,7 +40,6 @@
     text-decoration: none;
     padding: 8px;
     margin: 8px;
-
 }
 .button.font{
     font-size: 30px;
@@ -52,4 +51,13 @@
 .background{
     background-color:antiquewhite;
     zoom: 1.10;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 52px;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
 }
