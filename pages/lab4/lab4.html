@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор семейного бюджета</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор семейного бюджета</h1>
+
+        <div class="calculator">
+            <div class="input-group">
+                <label for="income">Доходы:</label>
+                <input type="number" id="income" placeholder="Введите доходы">
+            </div>
+
+            <div class="input-group">
+                <label for="expenses">Расходы:</label>
+                <input type="number" id="expenses" placeholder="Введите расходы">
+            </div>
+
+            <button id="calculateButton">Рассчитать</button>
+
+            <div id="result"></div>
+        </div>
+
+        <button id="contactButton">Контакты</button>
+        
+
+        <div id="contactInfo" class="hidden">
+            <p>Email: familybudget@example.com</p>
+            <p>Телефон: +7 999 123-45-67</p>
+            <p>Адрес: ул. Финансовая, д. 10, г. Москва</p>
+        </div>
+
+        <form action = "../../index.html"> 
+            <button> Вернуться</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демографические показатели региона</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Демографические показатели региона</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#" id="contacts-button">Контакты</a></li>
+                <li><a href="../../index.html">Вернуться    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Добавить новый показатель</h2>
+            <form id="add-indicator-form">
+                <label for="name">Название показателя:</label>
+                <input type="text" id="name" required>
+
+                <label for="value">Значение:</label>
+                <input type="number" id="value" required>
+
+                <label for="year">Год:</label>
+                <input type="number" id="year" required>
+
+                <button type="submit">Добавить</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Текущие показатели</h2>
+            <table id="indicators-table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Значение</th>
+                        <th>Год</th>
+                        <th>Удалить</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Данные будут добавляться сюда через JS -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Демографические данные региона</p>
+    </footer>
+
+    <!-- Всплывающее окно с контактной информацией -->
+    <div id="contacts-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Контакты</h2>
+            <p>Email: example@example.com</p>
+            <p>Телефон: +7 (123) 456-78-90</p>
+            <p>Адрес: ул. Примерная, 10, г. Москва</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

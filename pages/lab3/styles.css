@@ -35,7 +35,7 @@ nav ul li a {
     background-image: url('city.jpg');
     background-size: cover;
     background-position: center;
-    color: #ffffff;
+    
 }
 
 .intro h2 {
@@ -62,6 +62,7 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     padding: 40px 20px;
+    
 }
 
 .institution {
@@ -89,7 +90,7 @@ footer {
     text-align: center;
     padding: 20px;
     color: #ffffff;
-}
+}   
 
 #scroll-top-button {
     position: fixed;
@@ -141,4 +142,9 @@ footer {
     .institution {
         width: 80%;
     }
+}
+
+
+.hidden{
+    display: none;
 }
